@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+    
+    <main id="main-doc">
+        <nav id="navbar">
+            
+            <header>HTML 101</header>
+                <p id="header-note"><i>learning HTML from scratch...</i></p>
+            
+            
+            <ul>
+                <li> <a  class="nav-link" href="#introduction">Introduction</a></li>
+                <li><a class="nav-link"  href="#What_is_HTML">What is HTML</a></li>
+                <li><a class="nav-link"  href="#Tool-requirements">Tool Requirements</a></li>
+                <li><a class="nav-link"  href="#Creating_your_Webpage">Creating your Webpage</a></li>
+                <li><a class="nav-link"  href="#Basic_Construction_of_an_HTML_Page">Basic Construction 
+                    of an HTML Page</a></li>
+                <li><a class="nav-link"  href="#Element">Elements</a></li>
+                <li><a class="nav-link"  href="#what-next">What next</a></li>
+                <li><a class="nav-link"  href="#Reference">References</a></li>
+            </ul>
+        </nav>
+    
+        <div id="sections">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <P> Welcome to HTML101 class, are you a novice, hoping to delve into the world of web design? then this class is perfectly tailored to meet your needs.
+                Our beginner-friendly  tutorial will turn you from wannabe to webmaster.
+                
+                Our step-by-step guide teaches you the basics of HTML and how to build your first website. That means how to layout an HTML page, how to add text and images,
+                 how to add headings and text formatting e.t.c.
+                
+                Start imagining what your first website would look like, as we are going to begin the building <b>now!</b>
+        </section>
+        <section class="main-section" id="What_is_HTML">
+            <header>What is HTML</header>
+            HTML (Hypertext Markup Language) is not a programming language. It is a markup language that tells web browsers how to 
+            structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML 
+            consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or 
+            act in a certain way. 
+            
+           
+        </section>
+        <section class="main-section" id="Tool-requirements">
+            <header>Tool Requirements</header>
+            <p><b>First off,</b> we must ensure that we have the right tools. Most important, we need an HTML
+             editor.
+        There are many choices on the market. Here are a handful of the most popular:
+        Sublime Text 3<br>
+        Notepad++<br>
+        Visual Studio Code<br>
+        Komodo Editors<br>
+        All you need to do is to open your machine’s built-in notepad or whichever editor you downloaded 
+        and  start typing in your lines of code. It is important to note that only an editor can be used to type 
+        in lines of code, tools like Microsoft Word or Excel cant be used.
+        <br>
+            <b>Secondly,</b >ensure that you’ve installed a number of different browsers such as Chrome and Firefox in order 
+        to preview your upcoming creation.
+
+         </p>  
+        </section>
+        <section class="main-section" id="Creating_your_Webpage">
+            <header>Creating Your Webpage</header>
+            <P>Open a new folder in your documents, inside the folder create a ".html" file e.g index.html<br> 
+                Open your index.html file with any HTML editor, where you will find a clean white page on 
+                which to write your code and save changes.
+
+                From there you need to layout your page with the different tags, and view the results on a browser.
+                
+                
+                
+                </P>
+        </section>
+        <section class="main-section" id="Basic_Construction_of_an_HTML_Page">
+            <header>Basic Construction of an HTML Page</header>
+            <p>These tags should be placed underneath each other at the top of every HTML page that you create.<br>
+
+                &lt;!DOCTYPE html&gt; — This tag specifies the language you will write on the page. In this case, 
+                the language is HTML 5.<br>
+                
+                &lt;html&gt; — This tag signals that from here on we are going to write in HTML code.<br>
+                
+                &lt;head&gt; — This is where all the metadata for the page goes — stuff mostly meant for search 
+                engines and other computer programs.<br>
+                
+                &lt;body&gt; — This is where the content of the page goes.<br>
+                
+                HTML Structure
+                This is how your average HTML page is structured visually.<br>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+               &nbsp;&nbsp; &lt;head&gt;<br>
+               &nbsp; &nbsp; &nbsp; &nbsp;&lt;title&gt;<br>
+               &nbsp; &nbsp; &nbsp; &nbsp;&lt;/title&gt;<br>
+               &nbsp; &nbsp;  &lt;/head&gt;<br>
+               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;body&gt;<br>
+
+               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </p>
+                <p>
+                In summary<br>
+                 we have the head and body of the work enclosed in the "html" 
+                opening and closing tag<br>
+                we also have the "title" (which also has a closing tag) enclosed in the
+                 "head" opening and closing tag<br>
+                 lastly, the contents of the main-work will be contained in the "body" opening and closing
+                  tag 
+
+                
+                
+                </p>
+        </section>
+        <section class="main-section" id="Element">
+            <header>Elements</header>
+            <p>There are elements that used to add content to the body of our work.<br>
+                 <b>Starting with the "h" element</b><br>
+                This has variations from "h1" to "h6" with decresing importance and font-size<br> 
+                e.g<br>
+                <code>&lt;h1&gt; This is the most important &lt;/h1&gt;</code><br>
+                <code>&lt;h2&gt; This is the next in importance &lt;/h2&gt;</code><br>
+                Result:<br>
+                <code><h1>This is the most important</h1></code>
+                <code><h4>This is the fourth in importance</h4></code>
+                <b>Next is the "p" element</b> <br>
+                This is used to open new paragraphs<br>
+                e.g<br>
+                <code>&lt;p&gt; This is a new paragraph &lt;/p&gt;</code><br>
+                Result:<br>
+                <code><p>This is a new paragraph</p></code>
+            </p>
+            <p>
+                Other elements used in the body of our work includes:<br>
+                &lt;i&gt; &lt;/i&gt; To make our work appear in italics<br>
+                &lt;u&gt; &lt;/u&gt; To make an underline<br>
+                &lt;b&gt; &lt;/b&gt; To make our work appear bold<br>
+                &lt;strong&gt; &lt;/strong&gt; To also make our work appear bold<br>
+                &lt;i&gt; &lt;/i&gt; To place emphasy<br>
+                To check for other elements used with texts in html check <a id="more-element" href="#">here</a>
+
+                
+
+             </p>
+        </section>
+        
+        <section class="main-section" id="what-next">
+            <header >What next</header>
+            <p><a id="Html-102" href="#" target="_blank">HTML-102</a></p>
+            
+           
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+           <p> Frank M. Learn Html Code,Tagss&CSS. Retrieved From<br>
+            &nbsp; &nbsp;https://html.com/<br>
+            MDN Web Docs. Getting started with HTML. Retrieved from<br>
+            &nbsp; &nbsp;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
+        </p>
+        </section>
+    </div>
+    </main>
+</body>
+</html>
