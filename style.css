@@ -138,8 +138,8 @@ code{
         }
         #navbar ul{
             line-height: 1.8em;
-            overflow-y: auto;
-            overflow-x: 0;
+            overflow-y: scroll;
+            overflow-x: scroll;
             height: 120%;
             position: absolute;
             border: 2px black solid;
